@@ -29,11 +29,11 @@ margin: 18px 859px 19px 231px;
 
 .forma1{
     width: 26px;
-height: 26.79px;
-margin-top:10px;
+    height: 26.79px;
+    margin-top:10px;
 
 }
-
+    
 
 .button__menu{
     width: 159px;
@@ -76,6 +76,19 @@ margin-top:10px;
     white-space: nowrap;
 
 }
+
+.text_restan{
+    font-size: 48px; 
+    font-weight:900
+
+}
+
+.text_restan1{
+    font-size: 32px;
+     font-weight:700
+}
+
+
 .pink_color{
     font-size: 32px; font-weight:700;
     color: rgb(241, 109, 127);
@@ -117,6 +130,20 @@ margin-top:10px;
     text-align: center;
     width: 100%;
     color: #fff;
+}
+
+.offer_text2{
+    font-size: 16px;
+    font-weight:400;
+    color:rgb(255, 255, 255);
+
+}
+
+.offer_text3{
+    font-size: 24px; 
+    font-weight:700; 
+    color:rgb(241, 109, 127)
+
 }
 
 h1{
@@ -211,6 +238,110 @@ h2{
     border: none;
     color: rgb(242, 99, 118);
     
+}
+
+@media(min-width:768px) and (max-width:1023px){
+
+    .header{
+        width: 100%;
+    }
+
+    .logo{
+        margin: 18px 424px 18px 32px;
+        gap:30%;
+    }
+
+    .button__menu{
+        margin-top:29px;
+        margin-right:  32px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 367px;
+    }
+    
+    .banner__img{
+        width: 386px;
+        height: 368px;
+    }
+    
+    .banner__text{
+        display: flex;
+        align-items: center;
+    }
+    
+    .restangle{
+        margin-left: 39px;
+    }
+    
+    .text_restan{
+        font-size: 42px; 
+    
+    }
+    
+    .text_restan1{
+        font-size: 22px;
+    }
+
+    
+    .pink_color{
+        font-size: 22px;    
+    }
+
+    .offer{
+        width: auto;
+        height: 303px;
+        gap: 10px;
+        margin-left: 1%;
+        margin-top: 10%;
+        
+    }
+
+    .offer1, .offer2, .offer3, .offer4{
+        width: 100%;
+        height: auto;
+    }
+ 
+    
+    .products__content{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        
+    }
+
+    h3{
+        margin-bottom: 10%;
+    }
+    
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 5%;
+    }
+    
+    .product{
+        width: 100%;
+        height: auto;
+    }
+    
+    .product_img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .elem1{
+        display: block;
+        width: 70%;
+        height: auto;
+    }
+   
+    .products__button{ 
+        margin-left: 40%;
+        margin-top: 250px;
+    }    
 }
 
 

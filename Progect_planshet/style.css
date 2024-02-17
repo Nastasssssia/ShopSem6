@@ -12,13 +12,13 @@
 .logo{
     display: flex;
     width: 111px;
-height: 38px;
-left: 14.44%;
-right: 78.63%;
-top: 24%;
-bottom: 25.33%;
-gap:25%;
-margin: 18px 859px 19px 231px;
+    height: 38px;
+    left: 14.44%;
+    right: 78.63%;
+    top: 24%;
+    bottom: 25.33%;
+    gap:25%;
+    margin: 18px 859px 19px 231px;
 }
 
 .header_img{
@@ -247,13 +247,17 @@ h2{
     }
 
     .logo{
-        margin: 18px 424px 18px 32px;
+        margin: 18px 60% 18px 32px;
         gap:30%;
+        width: 100%;
     }
 
     .button__menu{
         margin-top:29px;
-        margin-right:  32px;
+        margin-right:  10%;
+        gap:20%;
+        width: 100%;
+        height: auto;
     }
 
     .banner{
@@ -308,6 +312,7 @@ h2{
         width: 100%;
         height: auto;
         margin-left: 0;
+        margin-top: 18%;
         
     }
 
@@ -341,7 +346,9 @@ h2{
     .products__button{ 
         margin-left: 40%;
         margin-top: 250px;
-    }    
+    }   
+    
+    
 }
 
 

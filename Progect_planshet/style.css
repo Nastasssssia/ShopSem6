@@ -13,10 +13,6 @@
     display: flex;
     width: 111px;
     height: 38px;
-    left: 14.44%;
-    right: 78.63%;
-    top: 24%;
-    bottom: 25.33%;
     gap:25%;
     margin: 18px 859px 19px 231px;
 }
@@ -39,7 +35,6 @@
     width: 159px;
     height: 29px;
     display: flex;
-    justify-content: space-between;
     margin-top:20px;
     margin-right:  240px;
 }
@@ -240,14 +235,20 @@ h2{
     
 }
 
-@media(min-width:768px) and (max-width:1023px){
+@media(min-width:768px) and (max-width:1024px){
+
+    .center {
+        padding-left: calc(50% - 386px);
+        padding-right: calc(50% - 386px);
+    }
 
     .header{
-        width: 100%;
+        width: 100vw;
+       
     }
 
     .logo{
-        margin: 18px 60% 18px 32px;
+        margin: 3% 60% 1% 5%;
         gap:30%;
         width: 100%;
     }
@@ -261,18 +262,20 @@ h2{
     }
 
     .banner{
-        width: 100%;
+        width: 100vw;
         height: 367px;
+        padding: 0;
     }
     
     .banner__img{
-        width: 386px;
+        width:386px;
         height: 368px;
     }
     
     .banner__text{
         display: flex;
         align-items: center;
+        width: 50%;
     }
     
     .restangle{
@@ -313,7 +316,14 @@ h2{
         height: auto;
         margin-left: 0;
         margin-top: 18%;
+        padding: 0;
         
+        
+    }
+
+    .products__text{
+        width: 100vw;
+    }
     }
 
     h3{
@@ -325,6 +335,7 @@ h2{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 5%;
+        width: 100vw;
     }
     
     .product{
